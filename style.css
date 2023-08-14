@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Assets/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.main h2{
+    margin-top: 7rem;
+    margin-left: -80rem;
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+}
+.navbar-brand img{
+    width: 9rem;
+    height: 9rem;
+}
+
+
+
+.section-1{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;  
+}
+.menue-section{
+    width: 100%;
+    height: 22rem;
+    background-color: #304A2D;
+}
+.menue-component{
+    margin: auto;
+    background-color: #304A2D;
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+.menue-component h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 6rem;
+}
+.menue-component p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.menue-btn{
+    width: 9rem;
+    height: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.menue-btn:hover{
+    background-color: #253823;
+    color: white;
+    cursor: pointer;
+}
+.splitter{
+    display: flex;
+}
+.rightsie{
+    background-image: url(/Assets/mae-mu-I7A_pHLcQK8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40.2rem;
+}
+.leftside{
+    position: relative;
+    background-image: url(/Assets/george-pagan-iii-dDmU72yV7g0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40.2rem;
+    
+}
+.centerbox{
+    position: absolute;
+    display: grid;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 48rem;
+    height: 27rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #304A2D;
+}
+.centerbox h2{
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.centerbox p{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.order-btn{
+    width: 11rem;
+    margin-left: 9rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.order-btn:hover{
+    background-color: #253823;
+    color: white;
+    cursor: pointer;
+}
